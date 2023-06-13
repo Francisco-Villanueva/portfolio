@@ -9,6 +9,7 @@ import reactlogo from "../imgs/react.png";
 import node from "../imgs/node.png";
 import reduxLogo from "../imgs/redux.png";
 import sequelizeLogo from "../imgs/sequelize.png";
+import postgres from "../imgs/postgres.png";
 
 export default function Hero() {
   return (
@@ -62,6 +63,12 @@ export default function Hero() {
               <a href="https://sequelize.org/">
                 <img src={sequelizeLogo} alt="sequelizeLogo" />
                 <p className="skillname">Sequelize</p>
+              </a>
+            </button>
+            <button>
+              <a href="https://www.postgresql.org/">
+                <img src={postgres} alt="postgres" />
+                <p className="skillname">PostgreSQL</p>
               </a>
             </button>
           </div>

@@ -1,19 +1,21 @@
 import React from "react";
 import "./Works.css";
-import ecomerce from "../imgs/eccomerce.png";
 import todo from "../imgs/todo.png";
 import crypto from "../imgs/crypto.png";
 export default function Works() {
   return (
-    <div className=" section works-section">
-      <h2>Works</h2>
+    <section className="section works-section">
+      <h2>Projects</h2>
       <div className="works-main">
         <div className="work-container">
           <div className="work-img-cont">
-            <img src={ecomerce} alt="eccomerce photo" />
+            <iframe
+              src="https://santa-cecilia.vercel.app/"
+              title="Mi Proyecto"
+            />
           </div>
           <div className="work-text">
-            <h3>Flone . </h3>
+            <h3>Santa Cecilia </h3>
           </div>
         </div>
         <div className="work-container">
@@ -33,6 +35,6 @@ export default function Works() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

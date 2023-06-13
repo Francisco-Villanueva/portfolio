@@ -52,9 +52,9 @@
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .text-focus-in-3 {
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2.2s
+  -webkit-animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s
     both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2.2s both;
+  animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
 }
 
 @-webkit-keyframes scale-in-hor-left {

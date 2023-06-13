@@ -19,7 +19,7 @@
 }
 .skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   place-items: center;
   transition: all 0.3s;
@@ -31,25 +31,29 @@
 }
 .skillname {
   visibility: hidden;
+  outline: none;
+  border: none;
 }
 .skills button {
   background: none;
-  padding: 0 0.5em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: padding 0.3s;
+  transition: all 0.3s;
   outline: none;
+  border: none;
 }
 .skills button a {
   color: #fff;
+  text-decoration: none;
+  margin: 0em;
 }
 .skills button:hover {
-  box-shadow: 1px 1px 10px #000;
-  background-color: #ffffff35;
-  padding: 0 0.8em;
   outline: none;
   border: none;
+  background-color: #ffffff35;
+  transform: scale(1.1);
 }
 .skills button:hover .skillname {
   visibility: visible;
