@@ -75,7 +75,7 @@ export default function Hero() {
         </div>
         <div className="slide-in-righ right-hero ">
           <div className="img-cont">
-            <img src={devPhoto} alt={"DevPhoto"} />
+            <img src={devPhoto} alt={"dev profile photo"} />
           </div>
         </div>
       </div>
