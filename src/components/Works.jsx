@@ -7,7 +7,7 @@ export default function Works() {
     <section className="section works-section">
       <h2>Projects</h2>
       <div className="works-main">
-        <div className="work-container">
+        {/* <div className="work-container">
           <div className="work-img-cont">
             <iframe
               src="https://santa-cecilia.vercel.app/"
@@ -17,7 +17,7 @@ export default function Works() {
           <div className="work-text">
             <h3>Santa Cecilia </h3>
           </div>
-        </div>
+        </div> */}
         <div className="work-container">
           <div className="work-img-cont">
             <img src={todo} alt="eccomerce photo" />
