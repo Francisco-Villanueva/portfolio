@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Navbar from "./navbar/Navbar";
-import devPhoto from "../imgs/fotoDev2.jpg";
+import devPhoto from "../imgs/fotodev2.jpg";
 import jsLogo from "../imgs/js.png";
 import hmtlLogo from "../imgs/html.png";
 import css from "../imgs/css.png";

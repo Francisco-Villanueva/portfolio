@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="navbar-main slide-in-top">
       <div className="logo-cont">
         <FontAwesomeIcon className="icon" icon={faCode} />
-        <span>FV</span>
+        <h2>FV</h2>
       </div>
       <div className="links-cont">
         <p>Home</p>
