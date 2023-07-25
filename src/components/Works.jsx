@@ -1,7 +1,5 @@
 import React from "react";
 import "./Works.css";
-import todo from "../imgs/todo.png";
-import crypto from "../imgs/crypto.png";
 import projects from "../mocks/data";
 
 export default function Works() {
